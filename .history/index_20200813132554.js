@@ -35,14 +35,14 @@ const afterBoltTookOff = animals.filter(function(a){
   return a !== 'horse';
 })
 
+farmAnimals = afterBoltTookOff.join(' ');
 let Bessie = afterBoltTookOff[0];
 let Dolly = afterBoltTookOff[1];
-let Little = afterBoltTookOff[3];
-let Babe = afterBoltTookOff[2];
+let Little = afterBoltTookOff[2];
+let Babe = afterBoltTookOff[3];
 
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of black_and_white, black, and pink.
-colors.push('black_and_white', 'black', 'pink');
-debugger;
+
 // Arrays
 
 // 4. Use destructuring to assign appropriate variables using the color names.

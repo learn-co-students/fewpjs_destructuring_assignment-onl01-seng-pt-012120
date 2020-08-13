@@ -28,21 +28,15 @@ const k_muppet = {
 // Strings
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
-let animals = farmAnimals.split(' ');
-const [moo,neigh,baa,oink,cluck] = animals;
+const [moo,neigh,baa,oink,cluck] = farmAnimals.split(' ');
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them Bessie, Dolly, Babe, and Little.
-const afterBoltTookOff = animals.filter(function(a){
-  return a !== 'horse';
-})
-
-let Bessie = afterBoltTookOff[0];
-let Dolly = afterBoltTookOff[1];
-let Little = afterBoltTookOff[3];
-let Babe = afterBoltTookOff[2];
+let Bessie = farmAnimals.split(' ')[0];
+let Dolly = farmAnimals.split(' ')[1];
+let Little = farmAnimals.split(' ')[2];
+let Babe = farmAnimals.split(' ')[3];
 
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of black_and_white, black, and pink.
-colors.push('black_and_white', 'black', 'pink');
-debugger;
+
 // Arrays
 
 // 4. Use destructuring to assign appropriate variables using the color names.

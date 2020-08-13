@@ -31,18 +31,14 @@ const k_muppet = {
 let animals = farmAnimals.split(' ');
 const [moo,neigh,baa,oink,cluck] = animals;
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them Bessie, Dolly, Babe, and Little.
-const afterBoltTookOff = animals.filter(function(a){
-  return a !== 'horse';
-})
-
-let Bessie = afterBoltTookOff[0];
-let Dolly = afterBoltTookOff[1];
-let Little = afterBoltTookOff[3];
-let Babe = afterBoltTookOff[2];
+animals.slice(1,1);
+let Bessie = animals[0];
+let Dolly = animals[1];
+let Little = animals[2];
+let Babe = animals[3];
 
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of black_and_white, black, and pink.
-colors.push('black_and_white', 'black', 'pink');
-debugger;
+
 // Arrays
 
 // 4. Use destructuring to assign appropriate variables using the color names.
