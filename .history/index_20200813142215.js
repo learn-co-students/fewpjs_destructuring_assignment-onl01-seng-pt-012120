@@ -45,6 +45,8 @@ let Babe = afterBoltTookOff[2];
 let black_and_white = afterBoltTookOff[0];
 let black = afterBoltTookOff[1];
 let pink = afterBoltTookOff[2];
+// debugger;
+// Arrays
 
 // 4. Use destructuring to assign appropriate variables using the color names.
 let [red,orange,yellow,green,blue,indigo,violet] = colors;
@@ -52,15 +54,9 @@ let [red,orange,yellow,green,blue,indigo,violet] = colors;
 let [r, o, y, g, b, i, v] = colors;
 // 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg. 
 let indg = indigo;
+// Objects
 
 // 7. Use destructuring to assign all appropriate variables using the keys as the variable names
 
-const {name,color,song,job,partner} = muppet;
-
 
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
-let k_color = k_muppet.k_color;
-let song_2 = k_muppet.k_album.the_muppet_movie.song_2;
-let song_4 = k_muppet.k_album.the_muppet_movie.song_4;
-let k_job = k_muppet.k_job;
-let k_partner = k_muppet.k_partner;
