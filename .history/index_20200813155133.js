@@ -62,5 +62,5 @@ const {name,color,song,job,partner} = muppet;
 // let color = k_muppet.k_color;
 let song_2 = k_muppet.k_album.the_muppet_movie.song_2;
 let song_4 = k_muppet.k_album.the_muppet_movie.song_4;
-let k_job = k_muppet.k_job;
-let k_partner = k_muppet.k_partner;
+let kermitJob = k_muppet.k_job;
+let kermitPartner = k_muppet.k_partner;
